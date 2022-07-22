@@ -41,8 +41,7 @@ const IndexPage = ({ data }) => (
       </h1>
     </div>
     <div>
-      <h2>Posts:</h2>
-      <h4>{data.allMarkdownRemark.totalCount}</h4>
+      <h2>Posts: {data.allMarkdownRemark.totalCount}</h2>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
           <BlogLink to={node.fields.slug}>
@@ -74,7 +73,7 @@ export const query = graphql`
           frontmatter {
             description
             title
-            date
+            date(formatString: "MMMM DD, YYYY")
           }
           fields {
             slug
