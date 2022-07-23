@@ -55,7 +55,13 @@ const IndexPage = ({ data }) => (
     </div>
     {moreLinks.map((link, i) => (
       <React.Fragment key={link.url}>
-        <a href={`${link.url}${utmParameters}`}>{link.text}</a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href={`${link.url}${utmParameters}`}
+        >
+          {link.text}
+        </a>
         {i !== moreLinks.length - 1 && <> · </>}
       </React.Fragment>
     ))}
