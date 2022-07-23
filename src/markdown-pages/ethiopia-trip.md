@@ -1,6 +1,6 @@
 ---
 title: "My Trip To Ethiopia"
-date: "2022-01-20"
+date: "2022-07-20"
 ---
 
 I scream, you scream, we all scream, because there's no more ice cream. No one's rhyming about spinach.
