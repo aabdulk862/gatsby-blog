@@ -1,7 +1,7 @@
 ---
 title: "Type of Content"
 date: "2022-07-20"
-description: "My first AMA :)"
+description: "Blog content"
 ---
 
 ### I want to start this post off by saying that I am not a writer, I'm a developer.
