@@ -1,4 +1,4 @@
-### I want to start this post off by saying that I am not a writer, I'm a developer.
+### Personal Blog
 
 Initially, I started making this blog as a project to learn Gatsby Js, a React-based framework used to make websites.
 With that being said, I liked the idea of having a place where I can share some of my thoughts and experiences.
